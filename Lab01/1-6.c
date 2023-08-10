@@ -10,7 +10,7 @@ int main() {
     printf("Enter Birth Year: ");
     scanf("%d",&birthYear);
 
-    age = 2023-birthYear;
+    age = currentYear-birthYear;
 
     printf("%s is %d years old. \n",name,age);
 }
